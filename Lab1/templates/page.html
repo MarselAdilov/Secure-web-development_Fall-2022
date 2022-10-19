@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="../../style.css" />
+<link rel="stylesheet" type="text/css" href="../../grid-style.css" />
+{% endblock style %}
+
+{% block content %}
+<header>
+	{{ page.title }}
+</header>
+<article>
+	{{ page.content | safe }}
+</article>
+{% endblock content %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<link rel="stylesheet" type="text/css" href="../grid-style.css" />
+{% endblock style %}
+
+{% block content %}
+<header>
+  {{ section.title }}
+</header>
+<nav>
+    {% for page in section.pages %}
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+    {% endfor %}
+</nav>
+<article>
+	{{ section.content | safe}}
+</article>
+{% endblock content %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block style %}
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="grid-style.css" />
+{% endblock style %}
+{% block content %}
+<header>
+  Сайт о Зиланте
+</header>
+<article>
+  <p>Зилант - легендарное существо, нечто среднее между драконом и виверной. С 1730 года он является официальным символом Казани. Этот крылатый змей упоминается в легендах об основании Казани.</p>
+	<p>Для большего ознакомления перейдите <a href="{{ get_url(path="@/zilant/_index.md") }}">на главную</a>.</p>
+</article>
+{% endblock content %}
