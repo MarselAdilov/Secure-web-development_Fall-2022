@@ -1,0 +1,16 @@
+curl 'http://localhost:8080/signin' \
+-v \
+-X 'POST' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' \
+-H 'Accept-Encoding: gzip, deflate' \
+-H 'Accept-Language: ru' \
+-H 'Host: localhost:8080' \
+-H 'Origin: http://localhost:8080' \
+-H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15' \
+-H 'Connection: keep-alive' \
+-H 'Upgrade-Insecure-Requests: 1' \
+-H 'Referer: http://localhost:8080/login.html' \
+-H 'Content-Length: 50' \
+-H 'Cookie: Webstorm-e27863a4=4874a7d5-a40c-4716-a3f4-9a0579dd1ade' \
+--data 'name=Verlie_Hane&pass=Fra8Uf60rqtfKu9&banned=true'
